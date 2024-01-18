@@ -1,0 +1,40 @@
+@import url(https://fonts.googleapis.com/css?family=Syne:regular,500,600,700,800);
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Syne", sans-serif;
+}
+main{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 0;
+  background-color: #F2D6EB;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.child{
+  height: 500px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.child img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.child:nth-child(2) img{
+  width: 150%;
+  height: 150%;
+}
+.loader{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
